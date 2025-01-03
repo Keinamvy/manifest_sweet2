@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <!-- Remote -->
-        <remote name="github" fetch="https://github.com/" />
+        <remote name="github" fetch="https://github.com/Sweet_K6A" revision="fourteen" />
+        <remote name="kernel" fetch="https://github.com/Sweet_K6A/" revision="Nightmare-KSU" />
         
         <!-- Device Resource -->
-        <project path="device/xiaomi/sweet2" name="Sweet_K6A/device_xiaomi_sweet2" remote="github" revision="lineage-21" clone-depth="1" />
-        <project path="device/xiaomi/sm6150-common" name="Sweet_K6A/device_xiaomi_sweet2-common" remote="github" revision="fourteen" clone-depth="1" />
-        <project path="vendor/xiaomi/sweet2" name="Sweet_K6A/vendor_xiaomi_sweet2" remote="github" revision="fourteen" clone-depth="1" />
-        <project path="vendor/xiaomi/sm6150-common" name="Sweet_K6A/vendor_xiaomi_sweet2-common" remote="github" revision="fourteen" clone-depth="1" />
-        <project path="kernel/xiaomi/sm6150" name="Sweet_K6A/kernel_xiaomi_sweet2" remote="github" revision="Nightmare-KSU" clone-depth="1" />
+        <project path="device/xiaomi/sweet2" name="device_xiaomi_sweet2" remote="github"  />
+        <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sweet2-common" remote="github" />
+        <project path="vendor/xiaomi/sweet2" name="vendor_xiaomi_sweet2" remote="github" />
+        <project path="vendor/xiaomi/sm6150-common" name="vendor_xiaomi_sweet2-common" remote="github" />
+        <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sweet2" remote="kernel" />
 </manifest>
